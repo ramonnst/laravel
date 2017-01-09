@@ -79,8 +79,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Contact Me
-                    
+                    Contact Me <br>
+                        {{ $passion }}
                 </div>
 <p>This is the beggining of a new journey. Just send a message !</p>
             

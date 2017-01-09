@@ -79,9 +79,10 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    About Me
-                    
+                    About {{ $data['fullname'] }}
+                        
                 </div>
+                <p>Email: {{ $data['email'] }} </p>
 <p>This is the beggining of a new journey. My cool about page</p>
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
